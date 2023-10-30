@@ -10,8 +10,14 @@ class TheWireCharactersViewerApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
         title: 'The Wire Characters Viewer',
-        home: CharactersListScreen());
+        theme: ThemeData(
+          useMaterial3: true,
+          colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.brown),
+        ),
+        home: launchCharacterViewer(
+            charactersPath: '?q=the+wire+characters&format=json',
+            useMockData: true));
   }
 }
