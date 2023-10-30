@@ -28,9 +28,11 @@ packages:
   characters_viewer_core:
     dependency: "direct main"
     description:
-      path: "../characters_viewer_core"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: "74ba12081011fff9c8a77d8634debcfbc243652e"
+      url: "https://github.com/gthompson333/characters_viewer_core.git"
+    source: git
     version: "1.0.0+1"
   clock:
     dependency: transitive

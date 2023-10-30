@@ -14,7 +14,8 @@ dependencies:
     sdk: flutter
 
   characters_viewer_core:
-    path: ../characters_viewer_core
+    git:
+      url: https://github.com/gthompson333/characters_viewer_core.git
 
 dev_dependencies:
   flutter_test:
