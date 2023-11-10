@@ -18,6 +18,6 @@ class TheWireCharactersViewerApp extends StatelessWidget {
         ),
         home: launchCharacterViewer(
             charactersPath: '?q=the+wire+characters&format=json',
-            useMockData: true));
+            useMockData: false));
   }
 }
